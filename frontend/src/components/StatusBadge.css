@@ -1,0 +1,19 @@
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.badge-received      { background: #ddeeff; color: #1a5fa8; }
+.badge-diagnosed     { background: #ece8f9; color: #5c3fa6; }
+.badge-in-repair     { background: #fff4d6; color: #9a5f00; }
+.badge-quality       { background: #ffecd6; color: #b35200; }
+.badge-ready         { background: #d6f5f0; color: #0d7a6a; }
+.badge-delivered     { background: #d6f0e0; color: #1a7a42; }
+.badge-on-hold       { background: #ebebeb; color: #595959; }
+.badge-cancelled     { background: #fde8e8; color: #a63030; }
+.badge-default       { background: #ececec; color: #444; }

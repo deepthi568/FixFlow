@@ -1,0 +1,15 @@
+/* Global baseline – FixFlow */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f5f7fa;
+}
+
+/* Remove the Vite scaffold centering so our sidebar layout works */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+}

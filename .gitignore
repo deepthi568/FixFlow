@@ -1,0 +1,41 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/application-local.properties
+!**/application-local.properties.example
+secrets/
+*.jks
+*.keystore
+*.p12
+*.key
+
+# Java / Maven
+**/target/
+**/build/
+*.class
+hs_err_pid*
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini

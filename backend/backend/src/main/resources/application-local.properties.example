@@ -1,0 +1,15 @@
+# Copy to backend/backend/application-local.properties. This local file is gitignored.
+# Generate a strong random JWT secret (at least 32 bytes); do not use the example below.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/fixflow
+spring.datasource.username=fixflow_app
+spring.datasource.password=replace-with-local-database-password
+
+jwt.secret=replace-with-a-random-secret-at-least-32-bytes
+
+fixflow.admin.username=replace-with-admin-username
+fixflow.admin.password=replace-with-strong-admin-password
+fixflow.admin.full-name=Administrator
+
+# Set this to the actual URL where the React frontend is served.
+fixflow.cors.allowed-origins=http://localhost:5173
